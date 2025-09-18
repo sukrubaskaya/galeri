@@ -1,49 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fotoğraf Galerim</title>
   <style>
-    body {font-family: Arial, sans-serif; margin: 0; background: #f4f4f4;}
-    h1 {text-align: center; padding: 20px; background: #333; color: #fff;}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    h1 {
+      margin: 20px 0;
+    }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
       padding: 20px;
     }
     .card {
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      overflow: hidden;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     .card img {
       width: 100%;
-      height: 180px;
-      object-fit: cover;
-      display: block;
+      height: auto;
+      border-radius: 8px;
     }
     footer {
-      margin-top: 20px;
-      text-align: center;
-      font-size: 14px;
-      color: #666;
-      padding: 10px;
+      margin: 20px 0;
+      color: #777;
     }
   </style>
 </head>
 <body>
   <h1>Fotoğraf Galerim</h1>
   <div class="grid">
-  <div class="card"><img src="1_org_zoom.jpg" alt="Fotoğraf 1"></div>
-  <div class="card"><img src="Dusakabin-Antalya.jpg" alt="Fotoğraf 2"></div>
-  <div class="card"><img src="IMG-20250912-WA001.jpg" alt="Fotoğraf 3"></div>
-  <div class="card"><img src="IMG-20250912-WA002.jpg" alt="Fotoğraf 4"></div>
-  <div class="card"><img src="IMG-20250912-WA003.jpg" alt="Fotoğraf 5"></div>
-  <div class="card"><img src="IMG-20250916-WA000.jpg" alt="Fotoğraf 6"></div>
-</div>
     <div class="card"><img src="1_org_zoom.jpg" alt="Fotoğraf 1"></div>
     <div class="card"><img src="Dusakabin-Antalya.jpg" alt="Fotoğraf 2"></div>
     <div class="card"><img src="IMG-20250912-WA001.jpg" alt="Fotoğraf 3"></div>

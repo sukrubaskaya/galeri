@@ -1,53 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fotoğraf Galerim</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      text-align: center;
-    }
-    h1 {
-      margin: 20px 0;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-    .card {
-      background: white;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .card img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    footer {
-      margin: 20px 0;
-      color: #777;
-    }
+    body {font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2;}
+    h1 {text-align: center; margin: 0; padding: 20px; background: #333; color: #fff;}
+    .grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; padding: 20px;}
+    .card {background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.2);}
+    .card img {width: 100%; height: 200px; object-fit: cover; display: block;}
+    footer {text-align: center; padding: 20px; margin-top: 20px; color: #555;}
   </style>
 </head>
 <body>
   <h1>Fotoğraf Galerim</h1>
+
   <div class="grid">
-    <div class="card"><img src="1_org_zoom.jpg" alt="Fotoğraf 1"></div>
-    <div class="card"><img src="Dusakabin-Antalya.jpg" alt="Fotoğraf 2"></div>
-    <div class="card"><img src="IMG-20250912-WA001.jpg" alt="Fotoğraf 3"></div>
-    <div class="card"><img src="IMG-20250912-WA002.jpg" alt="Fotoğraf 4"></div>
-    <div class="card"><img src="IMG-20250912-WA003.jpg" alt="Fotoğraf 5"></div>
-    <div class="card"><img src="IMG-20250916-WA000.jpg" alt="Fotoğraf 6"></div>
+    <!-- İlk resim -->
+    <div class="card"><img src="images%20(5).jpeg" alt="Tanıtım Resmi"></div>
+
+    <!-- Diğer resimler -->
+    <div class="card"><img src="1_org_zoom.jpg" alt="Fotoğraf"></div>
+    <div class="card"><img src="Dusakabin-Antalya.jpg" alt="Fotoğraf"></div>
+    <div class="card"><img src="IMG-20250912-WA001.jpg" alt="Fotoğraf"></div>
+    <div class="card"><img src="IMG-20250912-WA002.jpg" alt="Fotoğraf"></div>
+    <div class="card"><img src="IMG-20250916-WA000.jpg" alt="Fotoğraf"></div>
+    <!-- İstediğin kadar yeni satır ekleyebilirsin -->
   </div>
+
   <footer>© 2025 Şükrü Başkaya</footer>
 </body>
 </html>
